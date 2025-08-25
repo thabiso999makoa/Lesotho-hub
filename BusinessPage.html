@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesotho hub</title>
+	<style type="text/css">
+		body{
+			background-color: whitesmoke;
+			margin: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		
+		.mycont {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			background-color: green;
+			padding: 15px;
+			box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+			gap: 10px;
+			position: sticky; /* stays on top when scrolling */
+			top: 0;
+			z-index: 1000;
+		}
+
+		.mycont a {
+			color: white;
+			text-decoration: none;
+			font-size: 18px;
+			padding: 10px 20px;
+			background-color: darkgreen;
+			border-radius: 25px;
+			transition: 0.3s;
+		}
+
+		.mycont a:hover {
+			background-color: white;
+			color: green;
+			font-weight: bold;
+		}
+
+		/* Welcome message */
+		h1{
+			font-size: 36px;
+			color: white;
+			background-color: green;
+			text-align: center;
+			padding: 15px;
+			width: 900px;
+			max-width: 95%;
+			margin: 20px auto;
+			border-radius: 8px;
+		}
+
+		/* Product grid */
+		.products {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			gap: 20px;
+			padding: 20px;
+			margin: 20px;
+		}
+
+		.product {
+			background: white;
+			padding: 15px;
+			border-radius: 10px;
+			text-align: center;
+			box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+		}
+
+		.product .image-placeholder {
+			width: 100%;
+			height: 180px;
+			background: lightgray;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #555;
+			border-radius: 8px;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		.product p {
+			font-size: 18px;
+			font-weight: bold;
+			color: green;
+		}
+		footer {
+			text-align: center;
+			background-color: green;
+			color: white;
+			padding: 15px;
+			margin-top: 30px;
+			font-size: 14px;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Navigation bar on top -->
+	<div class="mycont">
+		<a href="index.html">Home</a>
+		<a href="BusinessPage.html">Business</a>
+		<a href="aboutUs.html">About us</a>
+		<a href="contactUs.html">Contact us</a>
+		<a href="Tips.html">Tips</a>
+	</div>
+
+	<!-- Welcome message below nav -->
+	<h1>Welcome TO LESOTHO HUB WEBSITE</h1>
+
+	<!-- Product section -->
+	<div class="products">
+		<div class="product">
+			<img src="corn.jpeg" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M150</p>
+		</div>
+
+		<div class="product">
+			<img src="cabbage.jpeg" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M250</p>
+		</div>
+
+		<div class="product">
+			<img src="yogurt.jpeg" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M400</p>
+		</div>
+
+		<div class="product">
+			<img src="chees.jpeg" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M600</p>
+		</div>
+
+		<div class="product">
+			<img src="chicken2.jpeg" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M750</p>
+		</div>
+
+		<div class="product">
+			<img src="chicken.jpeg" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M900</p>
+		</div>
+
+		<div class="product">
+			<img src="pig.jfif" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M1200</p>
+		</div>
+
+		<div class="product">
+			<img src="poho2.jfif" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M1500</p>
+		</div>
+
+		<div class="product">
+			<img src="poho.jfif" alt="Cow" style="width:100%; height:180px; border-radius:8px;">
+			<p>Price: M2000</p>
+		</div>
+	</div>
+</body>
+<footer>
+	&copy; 2025 Lesotho Hub | Connecting Farmers & Businesses
+</footer>
+</html>

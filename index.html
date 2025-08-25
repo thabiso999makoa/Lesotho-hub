@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lesotho Hub</title>
+	<style>
+		body {
+			background-color: #f5fff5; /* soft white-green background */
+			margin: 0;
+			font-family: Arial, sans-serif;
+			color: #333;
+		}
+
+		/* Page container */
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 5px;
+		}
+
+		/* Navigation */
+		.mycont {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: green;
+			padding: 8px 15px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+		}
+
+		/* Logo */
+		.logo img {
+			width: 60px;  
+			height: auto;
+			border-radius: 6px;
+		}
+
+		/* Nav links */
+		.nav-links {
+			display: flex;
+			gap: 8px;
+		}
+
+		.nav-links a {
+			color: white;
+			text-decoration: none;
+			font-size: 16px;
+			padding: 6px 12px;
+			background-color: darkgreen;
+			border-radius: 15px;
+			transition: 0.3s;
+		}
+
+		.nav-links a:hover {
+			background-color: white;
+			color: green;
+			font-weight: bold;
+		}
+
+		/* Headings */
+		h1, h2 {
+			text-align: center;
+			margin: 20px auto;
+			padding: 12px;
+			color: green;
+			background-color: white;
+			border: 2px solid green;
+			border-radius: 10px;
+			width: fit-content;
+			box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+		}
+
+		h1 { font-size: 36px; }
+		h2 { font-size: 22px; }
+
+		h3 {
+			font-size: 20px;
+			color: white;
+			background-color: green;
+			padding: 8px 12px;
+			width: fit-content;
+			border-radius: 5px;
+			margin: 20px 0;
+		}
+
+		/* Images Section */
+		.images {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 15px;
+			margin: 30px 0;
+		}
+
+		.images img {
+			border-radius: 10px;
+			width: 260px;
+			height: 180px;
+			object-fit: cover;
+			box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+			transition: transform 0.3s;
+		}
+
+		.images img:hover {
+			transform: scale(1.05);
+		}
+
+		/* Categories */
+		.categories {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+			gap: 12px;
+			margin: 20px 0;
+		}
+
+		.categories a {
+			background: white;
+			color: green;
+			text-decoration: none;
+			padding: 12px;
+			text-align: center;
+			border: 2px solid green;
+			border-radius: 8px;
+			transition: 0.3s;
+			font-weight: bold;
+		}
+
+		.categories a:hover {
+			background: green;
+			color: white;
+			transform: scale(1.05);
+		}
+
+		/* Footer */
+		footer {
+			text-align: center;
+			background-color: green;
+			color: white;
+			padding: 12px;
+			margin-top: 30px;
+			font-size: 13px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+
+		<!-- Navigation with Logo -->
+		<div class="mycont">
+			<div class="logo">
+				<img src="logo.jpeg" alt="Lesotho Hub Logo">
+			</div>
+
+			<div class="nav-links">
+				<a href="index.html">Home</a>
+				<a href="BusinessPage.html">Business</a>
+				<a href="aboutUs.html">About Us</a>
+				<a href="contactUs.html">Contact Us</a>
+				<a href="Tips.html">Tips</a>
+			</div>
+		</div>
+
+		<!-- Heading -->
+		<h1>Welcome to Lesotho Hub Website</h1>
+
+		<!-- Images -->
+		<div class="images">
+			<img src="farming.jpeg" alt="Farming">
+			<img src="thabiso.jpeg" alt="Thabiso">
+			<img src="makoa.jpeg" alt="Makoa">
+		</div>
+
+		<!-- Categories -->
+		<h3>Farming Categories</h3>
+		<div class="categories">
+			<a href="cropFarmers.html">Crop Farmers</a>
+			<a href="livestockFarmers.html">Livestock Farmers</a>
+			<a href="poultryFarmers.html">Poultry Farmers</a>
+			<a href="dairyFarmers.html">Dairy Farmers</a>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			&copy; 2025 Lesotho Hub | Connecting Farmers & Businesses
+		</footer>
+	</div>
+</body>
+</html>
